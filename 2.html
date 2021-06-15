@@ -1,0 +1,71 @@
+<html>
+<head>
+<title>Javascript Form | Variable Declaration| Assignment 2</title>
+</head>
+<body>
+      <script>
+		/* 1. Declare all the variables in above form without initialising and print their value.*/
+            var name;
+            var email;
+            var age;
+            var address;
+            var phone;
+            var gender;
+            var marriage_status;
+			
+            document.write("1. Declare all the variables in above form without initialising and print their value" + "<br/>");
+            document.write ("Name:" +name + "<br/>");
+            document.write ("Email:" +email + "<br/>");
+            document.write ("Age:" +age + "<br/>");
+            document.write ("Address:" +address + "<br/>");
+            document.write ("Phone:" +phone + "<br/>");
+            document.write ("Gender:" +gender + "<br/>");
+            document.write ("Marital Status:" +marriage_status+"<br/>"+ "<br/>");
+        </script>
+		
+		<script>
+		/* 2. After printing their value assign them as null and print it again.*/
+		    var name= null;
+            var email= null;
+            var age= null;
+            var address= null;
+            var phone= null;
+            var gender= null;
+            var marital_status= null;
+			
+			document.write("2. After printing their value assign them as null and print it again" + "<br/>");
+			document.write("Name:" +name+ "<br/>");
+			document.write("Email:" +email+ "<br/>");
+			document.write("Age:" +age+ "<br/>");
+			document.write("Address:" +address+ "<br/>");
+			document.write ("Phone:" +phone+ "<br/>");
+            document.write ("Gender:" +gender+ "<br/>");
+            document.write ("Marital Status:"+marital_status+ "<br/>"+ "<br/>" );
+		</script>
+		
+		<script>
+		/*3. Declare an object called employeeDetails and add all the above variables to this object now as keys with value as null and print this object.*/
+		var employeeDetails= new Object();
+		{
+		employeeDetails.name= null;
+		employeeDetails.email= null;
+		employeeDetails.age= null;
+		employeeDetails.address= null;
+		employeeDetails.phone= null;
+		employeeDetails.marital_status= null;
+		}
+		
+		document.write("3. Declare an object called employeeDetails and add all the above variables to this object now as keys with value as null and print this object." + "<br/>");
+		document.write("Name:" +employeeDetails.name+ "<br/>");
+		document.write("Email:" +employeeDetails.email+ "<br/>");
+		document.write("Age:" +employeeDetails.age+ "<br/>");
+		document.write("Address:" +employeeDetails.address+ "<br/>");
+		document.write("Phone:" +employeeDetails.phone+ "<br/>");
+		document.write("Marital-Status:" +employeeDetails.marital_status+ "<br/>" + "<br/>");
+		console.log(employeeDetails);
+		alert(employeeDetails);
+       </script>
+   
+</body>
+</html> 
+
